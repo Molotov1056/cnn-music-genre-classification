@@ -87,11 +87,17 @@ python cli_app.py predict sample.wav --top-k 5
 
 Launch the Streamlit web application:
 
+**Option 1: Easy launcher (recommended)**
 ```bash
-streamlit run streamlit_app.py
+python3 launch_web_app.py
 ```
 
-The app will open at `http://localhost:8502` (configured to avoid port conflicts).
+**Option 2: Manual launch**
+```bash
+streamlit run streamlit_app.py --server.port 8503
+```
+
+The app will automatically find an available port (starting from 8503) to avoid conflicts with other projects.
 
 Features:
 - Upload audio files through web interface
