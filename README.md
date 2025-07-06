@@ -91,6 +91,8 @@ Launch the Streamlit web application:
 streamlit run streamlit_app.py
 ```
 
+The app will open at `http://localhost:8502` (configured to avoid port conflicts).
+
 Features:
 - Upload audio files through web interface
 - Real-time genre prediction

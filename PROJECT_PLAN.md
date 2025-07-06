@@ -126,7 +126,7 @@ Result: JAZZ (95.86% confidence) ✅
 
 ### 🚀 **Ready to Use**
 1. **CLI**: `python3 cli_app.py predict audio.wav`
-2. **Web App**: `streamlit run streamlit_app.py`
+2. **Web App**: `streamlit run streamlit_app.py` (opens at http://localhost:8502)
 3. **Model Info**: `python3 cli_app.py info`
 
 ### ⚠️ **Production Note**
